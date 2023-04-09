@@ -1,0 +1,41 @@
+/* 
+header
+*/
+
+#head {
+    height: 295px;
+    background: linear-gradient(92.33deg, #087990 0.12%, #055160 100%);
+    border: 1px solid #CED4DA;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    color: #CFF4FC;
+    margin: 68px 0 10px;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 36px;
+    color: #CFF4FC;    
+    margin: 10px 0 68px;
+}
+
+/* 
+header
+*/
+
+@media (max-width: 415px) {
+    p {
+        display: none;
+    }
+}

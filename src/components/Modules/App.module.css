@@ -1,0 +1,140 @@
+.boxForCard {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 316px;
+    gap: 20px;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 24px;
+    background: #FFFFFF;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+}
+
+.symbol {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+}
+
+.title {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.keywords {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;       
+}
+
+.input {
+    position: absolute;
+    top: 263px;        
+    left:50%;
+    transform:translateX(-50%);
+    width: 70%;
+    height: 64px; 
+    box-sizing: border-box;
+}
+
+.input[type='text'] {
+    font-size: 24px;
+    padding-left: 32px;
+}
+
+.valueInput {
+    max-width: 80%;
+    height: 100px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.valueInput p {
+    font-size: 30px;
+    color: black;
+    margin: 0;
+    display: block;
+}
+
+.input::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    color: #ABB5BE;   
+    padding: 22px 0;
+    text-align: left;
+}
+
+#deleteValue {
+    width: 200px;
+    position: absolute;
+    top: 326px;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 10px;
+}
+
+#deleteValue img {
+    width: 33px;
+    height: 30px;
+    opacity: 0.7;
+}
+
+.mainArea {
+    margin: 90px 0;
+}
+
+.pagination {
+    text-align: center;
+    margin: 35px;
+}
+
+.pagination button {
+    padding: 15px;
+}
+
+.pagination button:active {
+    background-color: red
+} 
+
+@media (max-width: 450px) {
+    .title {
+        font-size: 25px;
+    }
+    .keywords {
+        font-size: 16px;
+    }
+    .pagination {
+        display: flex;
+        flex-direction: column;
+    }
+}
