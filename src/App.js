@@ -85,7 +85,7 @@ function App() {
         <button id={s.deleteValue}
         onClick={clearInput}
         >
-        <img src={cross}></img>
+        <img src={cross} alt="cross"/>
         </button>
       </div>
       {value && <div className={s.valueInput}>
