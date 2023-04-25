@@ -3,7 +3,7 @@
 A project to search for emoji cards and working pagination at the bottom of the page. Layout rubber and adaptive
 
 The project can be viewed at the link:
-Tap on!(https://quiet-swan-8760e1.netlify.app/)
+[Tap on!](https://quiet-swan-8760e1.netlify.app/)
 
 
 
